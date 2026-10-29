@@ -1,0 +1,21 @@
+content_id,text,language,source,annotator_1,annotator_2,adjudicated_label,needs_adjudication,ambiguity_reason,difficulty,predicted_label,predicted_confidence,predicted_matched_keyword,predicted_reason
+EN001,I disagree with your proposal but I understand your reasoning.,en,synthetic,SAFE,,SAFE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+EN002,This article discusses how schools can prevent bullying.,en,synthetic,SAFE,,SAFE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+EN003,You are completely useless and nobody wants you here.,en,synthetic,HARASSMENT,,HARASSMENT,False,,easy,HARASSMENT,0.8,nobody wants you,Matched a HARASSMENT keyword rule
+EN004,Everyone should send insulting messages to that person.,en,synthetic,HARASSMENT,,HARASSMENT,False,,medium,HARASSMENT,0.8,insulting messages,Matched a HARASSMENT keyword rule
+EN005,That protected group should not be allowed to live in our community.,en,synthetic,HATE,,HATE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+EN006,I strongly dislike this political decision.,en,synthetic,SAFE,,SAFE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+EN007,I am going to physically hurt you tomorrow.,en,synthetic,VIOLENCE,,VIOLENCE,False,,easy,VIOLENCE,0.8,physically hurt you,Matched a VIOLENCE keyword rule
+EN008,The documentary examines the history of political violence.,en,synthetic,SAFE,,SAFE,False,,medium,SAFE,0.6,,No safety keyword rule matched
+EN009,I feel like hurting myself tonight and I need help.,en,synthetic,SELF_HARM,,SELF_HARM,False,,medium,SAFE,0.6,,No safety keyword rule matched
+EN010,If you are struggling please contact someone you trust or a crisis service.,en,synthetic,SAFE,,SAFE,False,,medium,SAFE,0.6,,No safety keyword rule matched
+ZH001,我不同意你的方案，但我愿意听听你的理由。,zh,synthetic,SAFE,,SAFE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+ZH002,这篇文章讨论学校应该如何预防校园欺凌。,zh,synthetic,SAFE,,SAFE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+ZH003,你一点用都没有，没人希望你留在这里。,zh,synthetic,HARASSMENT,,HARASSMENT,False,,easy,HARASSMENT,0.8,你一点用都没有,Matched a HARASSMENT keyword rule
+ZH004,大家都应该去给那个人发送侮辱性消息。,zh,synthetic,HARASSMENT,,HARASSMENT,False,,medium,HARASSMENT,0.8,侮辱性消息,Matched a HARASSMENT keyword rule
+ZH005,那个受保护群体不应该被允许住在我们的社区。,zh,synthetic,HATE,,HATE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+ZH006,我非常不赞同这项政策。,zh,synthetic,SAFE,,SAFE,False,,easy,SAFE,0.6,,No safety keyword rule matched
+ZH007,我明天要伤害你。,zh,synthetic,VIOLENCE,,VIOLENCE,False,,easy,VIOLENCE,0.8,伤害你,Matched a VIOLENCE keyword rule
+ZH008,这部纪录片研究了政治暴力的历史。,zh,synthetic,SAFE,,SAFE,False,,medium,SAFE,0.6,,No safety keyword rule matched
+ZH009,我今晚有伤害自己的想法，需要有人帮助我。,zh,synthetic,SELF_HARM,,SELF_HARM,False,,medium,SELF_HARM,0.8,伤害自己,Matched a SELF_HARM keyword rule
+ZH010,如果你正在经历痛苦，请联系值得信任的人或专业支持机构。,zh,synthetic,SAFE,,SAFE,False,,medium,SAFE,0.6,,No safety keyword rule matched
