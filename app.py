@@ -1,5 +1,6 @@
 import csv
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
@@ -111,9 +112,23 @@ def render_single_text_evaluation() -> None:
         height=130,
         placeholder="Enter English or Chinese text for evaluation.",
     )
+    llm_available = bool(
+        os.getenv("OPENAI_API_KEY") and os.getenv("OPENAI_MODEL")
+    )
+    classifier_options = ["Rule-based baseline"]
+
+    if llm_available:
+        classifier_options.append("LLM classifier")
+    else:
+        st.info(
+            "Live LLM classification is disabled in the public demo. "
+            "Saved LLM evaluation results remain available in the "
+            "Model dashboard."
+        )
+
     model_type = st.radio(
         "Classifier",
-        ["Rule-based baseline", "LLM classifier"],
+        classifier_options,
         horizontal=True,
     )
 
