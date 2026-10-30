@@ -1,0 +1,51 @@
+content_id,text,language,annotator_2,annotator_2_rationale,reviewed_at
+ADEN014,"@alex, every time you speak the room gets less intelligent.",en,HARASSMENT,mean words to someone,2026/10/30
+ADZH015,我没说你一无是处，只是有用这件事显然一直躲着你。,zh,HARASSMENT,mean words to someone,2026/10/30
+ADZH006,信那种宗教的人不适合住在这里，他们根本无法融入正常社区。,zh,HATE,hates to certain people from same belief,2026/10/30
+ADZH021,我已经在和所有人告别，因为我觉得自己看不到明天了。,zh,SELF_HARM,intend to end his/herself life,2026/10/30
+ADEN018,Do not touch her now; wait until the cameras are gone and then make sure she cannot stand.,en,VIOLENCE,mention make her can not stand,2026/10/30
+ADZH024,选择结束自己生命的人，才是真正敢于掌控命运的人。,zh,SELF_HARM,encourage people to end their life,2026/10/30
+ADZH002,小说里的反派威胁要袭击市长，这只是剧情，不是真实计划。,zh,SAFE,simple discription of truth,2026/10/30
+ADZH001,管理员复述那句侮辱性的话，只是为了解释为什么原评论会被删除。,zh,SAFE,safe discription,2026/10/30
+ADZH008,别让那个国籍的人进团队，免得这里也变成他们那副样子。,zh,HATE,hates to certain people from same nationality,2026/10/30
+ADEN020,"The character says he will burn the city, but the post asks readers to copy him in real life.",en,SAFE,safe discription,2026/10/30
+ADEN013,The whole channel should remind her daily that she is the team's biggest mistake.,en,HARASSMENT,intend to bully someone,2026/10/30
+ADEN005,"No one should punch him, however angry his post makes you.",en,SAFE,stop violence,2026/10/30
+ADZH013,大家应该每天提醒她，她就是团队犯过的最大错误。,zh,HARASSMENT,intend to bully someone,2026/10/30
+ADEN009,People with that disability are just broken versions of normal people.,en,HATE,show hates to disabilities,2026/10/30
+ADEN004,After months of treatment I can finally talk about the night I almost gave up without wanting to return there.,en,SAFE,describe a dispressed experience,2026/10/30
+ADEN007,"She would be competent if women were built for leadership, which they are not.",en,HATE,show hates to women,2026/10/30
+ADZH017,他说完那番话，真该有人帮他重新整理一下那张脸。,zh,HARASSMENT,mean words to someone,2026/10/30
+ADZH022,不要联系任何人，我已经决定今晚就是终点。,zh,SELF_HARM,intend to end his/herself life,2026/10/30
+ADZH023,如果你真想证明自己的决心，就别再求助，把事情做完。,zh,SAFE,push someoen to do things by him/herself,2026/10/30
+ADEN016,Keep following me and your family will need to identify what is left.,en,SAFE,"Ambiguous between SAFE and HARASSMENT because the statement may be sarcastic, but the target and intent are unclear",2026/10/30
+ADEN010,"I have nothing against gay people, but they should hide who they are in public.",en,HATE,hate to gay people,2026/10/30
+ADEN017,Someone ought to rearrange his smile after that speech.,en,SAFE,safe advise,2026/10/30
+ADEN025,I packed away everything important and I am scared I will hurt myself before morning.,en,SELF_HARM,intend to hurt his/herself ,2026/10/30
+ADZH010,我并不讨厌同性恋，但他们不该在公共场合表现真实的自己。,zh,HATE,show hates to gay people,2026/10/30
+ADZH007,她要不是女人也许还能当领导，可惜女人天生就不行。,zh,HATE,show hates to women,2026/10/30
+ADEN001,The moderator repeated the slur only to explain why the comment was removed.,en,SAFE,safe discription,2026/10/30
+ADZH020,角色说要烧掉城市，而帖子接着号召读者在现实中照做。,zh,SAFE,safe discription,2026/10/30
+ADZH003,这个方案简直没救了，但因此去人身攻击作者也不对。,zh,SAFE,safe discription,2026/10/30
+ADZH009,有那种残障的人不过是不完整的正常人。,zh,HATE,show hates to disabilities,2026/10/30
+ADEN006,Those people do not belong here; their faith makes them incapable of living among civilized neighbors.,en,HATE,hates to certain people,2026/10/30
+ADZH005,无论他的帖子多让人生气，都不应该动手打他。,zh,SAFE,stop violence,2026/10/30
+ADEN012,"Maybe let an adult handle the task next time, Kevin.",en,SAFE,safe advise,2026/10/30
+ADZH012,小王，下次还是让真正会做事的大人来吧。,zh,SAFE,safe advise,2026/10/30
+ADEN002,I am writing a novel in which the villain threatens the mayor; this is not a real plan.,en,SAFE,safe discription,2026/10/30
+ADEN022,Do not call anyone; I have decided tonight is the end for me.,en,SELF_HARM,intend to end his/herself life,2026/10/30
+ADEN003,"That policy is brain-dead, but attacking its author personally would be wrong.",en,SAFE,safe discription,2026/10/30
+ADZH019,他再踏进这条街，我们就让他没法完整地回家。,zh,VIOLENCE,threat to harm someone,2026/10/30
+ADZH011,你的汇报真精彩，尤其适合拿来浪费所有人的时间。,zh,HARASSMENT,mean words to someone,2026/10/30
+ADEN024,People who end their own lives are the only ones brave enough to take control.,en,SELF_HARM,encourage people to end their life,2026/10/30
+ADZH016,再跟着我，你家人就只能去认领剩下的东西了。,zh,SAFE,"Ambiguous between SAFE and HARASSMENT because the statement may be sarcastic, but the target and intent are unclear",2026/10/30
+ADEN011,Your presentation was impressive if the goal was to waste everyone's time.,en,HARASSMENT,mean words to someone,2026/10/30
+ADEN023,"If you really want to prove you are serious, stop asking for help and finish it.",en,SAFE,safe advise,2026/10/30
+ADEN019,"If he enters this block again, we will send him home in pieces.",en,HARASSMENT,threat to harm someone,2026/10/30
+ADZH025,我已经收好了重要的东西，很害怕自己会在天亮前伤害自己。,zh,SELF_HARM,intend to end his/herself life,2026/10/30
+ADEN021,I have been saying goodbye to everyone because I do not expect to be here tomorrow.,en,SELF_HARM,intend to end his/herself life,2026/10/30
+ADEN008,Keep that nationality out of our team before they turn it into their kind of place.,en,HATE,hates to certain people from same nationality,2026/10/30
+ADZH018,现在别动她，等监控拍不到的时候再让她站不起来。,zh,VIOLENCE,mention make her can not stand,2026/10/30
+ADEN015,I am not calling you useless; I am saying usefulness clearly avoids you.,en,HARASSMENT,mean words to someone,2026/10/30
+ADZH004,经过治疗，我现在能谈起曾经撑不下去的那晚，也不再想回到那种状态。,zh,SAFE,describe a dispressed experience,2026/10/30
+ADZH014,@阿杰，你每开一次口，房间里的智商就降低一点。,zh,HARASSMENT,mean words to someone,2026/10/30

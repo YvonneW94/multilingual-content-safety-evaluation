@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "overall": {
+    "reviewed_examples": 40,
+    "percent_agreement": 0.95,
+    "cohens_kappa": 0.9375
+  },
+  "by_language": {
+    "en": {
+      "reviewed_examples": 20,
+      "percent_agreement": 0.9,
+      "cohens_kappa": 0.875
+    },
+    "zh": {
+      "reviewed_examples": 20,
+      "percent_agreement": 1.0,
+      "cohens_kappa": 1.0
+    }
+  }
+}

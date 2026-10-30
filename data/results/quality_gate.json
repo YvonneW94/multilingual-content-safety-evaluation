@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "check_count": 22,
+  "failed_check_count": 0,
+  "checks": [
+    {
+      "check": "required_document:README.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "required_document:docs/PRD.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "required_document:docs/annotation_guidelines.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "required_document:docs/evaluation_report.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "required_document:docs/data_card.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "required_document:docs/model_card.md",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "dataset_validation:data/processed/pilot_annotations.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "dataset_validation:data/processed/challenge_annotations.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "dataset_validation:data/processed/challenge_final_annotations.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "dataset_validation:data/processed/adversarial_annotations.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "dataset_validation:data/processed/adversarial_final_annotations.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "manifest_validation:data/results/rule_baseline_manifest.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "manifest_validation:data/results/llm_manifest.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "manifest_validation:data/results/challenge_rule_manifest.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "manifest_validation:data/results/challenge_llm_manifest.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "manifest_validation:data/results/adversarial_rule_manifest.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "manifest_validation:data/results/adversarial_llm_manifest.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "review_artifact:data/processed/challenge_adjudication_decisions.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "review_artifact:data/results/challenge_agreement.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "review_artifact:data/processed/adversarial_adjudication_decisions.csv",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "review_artifact:data/results/adversarial_agreement.json",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "check": "tracked_secrets",
+      "status": "PASS",
+      "details": ""
+    }
+  ]
+}

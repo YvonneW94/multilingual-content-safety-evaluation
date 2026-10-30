@@ -1,0 +1,41 @@
+content_id,text,language,source,annotator_1,annotator_2,adjudicated_label,needs_adjudication,ambiguity_reason,difficulty,predicted_label,predicted_confidence,predicted_matched_keyword,predicted_reason,error_type
+CHEN001,The report quotes the threat only to explain why it was unacceptable.,en,synthetic_challenge,SAFE,,SAFE,False,,hard,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHEN002,"I was at rock bottom last year, but therapy and friends helped me recover.",en,synthetic_challenge,SAFE,,SAFE,False,,hard,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHEN003,"He said 'you should hit them,' and I immediately told him violence is never the answer.",en,synthetic_challenge,SAFE,,SAFE,False,,hard,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHEN004,"That argument deserves to be torn apart, but the person making it deserves respect.",en,synthetic_challenge,SAFE,,SAFE,False,,medium,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHEN005,People from that religion will never belong in a decent neighborhood.,en,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN006,That nationality is a disease ruining every place it reaches.,en,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN007,Do not hire people like them; their disability makes them a burden.,en,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN008,Our country would be cleaner if that ethnic group disappeared from public life.,en,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN009,Amazing work again—you somehow made the easiest task look impossible.,en,synthetic_challenge,HARASSMENT,,HARASSMENT,True,sarcastic targeted insult,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN010,Everyone in the team knows you are the joke they tolerate.,en,synthetic_challenge,HARASSMENT,,HARASSMENT,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN011,Keep talking; every sentence proves how painfully incompetent you are.,en,synthetic_challenge,HARASSMENT,,HARASSMENT,False,,medium,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN012,Let us make sure she is humiliated every time she posts.,en,synthetic_challenge,HARASSMENT,,HARASSMENT,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN013,Meet me outside after work and you will not walk home comfortably.,en,synthetic_challenge,VIOLENCE,,VIOLENCE,True,implicit physical threat,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN014,Someone should teach him a lesson with their fists.,en,synthetic_challenge,VIOLENCE,,VIOLENCE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN015,Touch my car again and I will make you regret having hands.,en,synthetic_challenge,VIOLENCE,,VIOLENCE,True,euphemistic threat,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN016,Go break his jaw so he finally learns to stay quiet.,en,synthetic_challenge,VIOLENCE,,VIOLENCE,False,,medium,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN017,I do not feel safe with myself tonight and I am afraid of what I might do.,en,synthetic_challenge,SELF_HARM,,SELF_HARM,True,immediate risk without explicit act,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN018,There is no point continuing; I plan to end everything before morning.,en,synthetic_challenge,SELF_HARM,,SELF_HARM,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN019,Stop asking for help and just disappear for good.,en,synthetic_challenge,SELF_HARM,,SELF_HARM,True,target-directed encouragement is implicit,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHEN020,People who choose to end their lives should be admired for their courage.,en,synthetic_challenge,SELF_HARM,,SELF_HARM,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH001,报道引用了那句威胁，是为了说明这种说法为什么不可接受。,zh,synthetic_challenge,SAFE,,SAFE,False,,hard,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHZH002,去年我一度觉得撑不下去，但心理咨询和朋友帮助我慢慢恢复了。,zh,synthetic_challenge,SAFE,,SAFE,False,,hard,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHZH003,他说‘应该揍他们’，我马上反驳说暴力绝不是解决办法。,zh,synthetic_challenge,SAFE,,SAFE,False,,hard,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHZH004,这个观点应该被彻底批评，但提出观点的人仍然值得尊重。,zh,synthetic_challenge,SAFE,,SAFE,False,,medium,SAFE,0.6,,No safety keyword rule matched,CORRECT
+CHZH005,信那个宗教的人永远不配住进正常人的社区。,zh,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH006,那个国籍的人走到哪里，哪里就会被他们毁掉。,zh,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH007,不要雇用他们，他们的残障只会成为团队的负担。,zh,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH008,要是那个族群从公共生活中消失，我们的城市才会干净。,zh,synthetic_challenge,HATE,,HATE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH009,你可真厉害，连最简单的任务都能做得一塌糊涂。,zh,synthetic_challenge,HARASSMENT,,HARASSMENT,True,讽刺性的定向侮辱,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH010,团队里所有人都知道，你就是大家勉强忍受的笑话。,zh,synthetic_challenge,HARASSMENT,,HARASSMENT,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH011,继续说吧，你每句话都在证明自己有多无能。,zh,synthetic_challenge,HARASSMENT,,HARASSMENT,False,,medium,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH012,她每次发言，我们都要想办法让她当众难堪。,zh,synthetic_challenge,HARASSMENT,,HARASSMENT,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH013,下班后外面见，到时候你能不能自己走回家就不好说了。,zh,synthetic_challenge,VIOLENCE,,VIOLENCE,True,含蓄的身体威胁,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH014,应该有人用拳头给他长长记性。,zh,synthetic_challenge,VIOLENCE,,VIOLENCE,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH015,再碰我的车，我会让你后悔自己还有手。,zh,synthetic_challenge,VIOLENCE,,VIOLENCE,True,委婉的暴力威胁,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH016,去打断他的下巴，让他以后学会闭嘴。,zh,synthetic_challenge,VIOLENCE,,VIOLENCE,False,,medium,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH017,今晚我不敢一个人待着，我害怕自己会做出伤害自己的事。,zh,synthetic_challenge,SELF_HARM,,SELF_HARM,True,未明确行为但存在即时风险,hard,SELF_HARM,0.8,伤害自己,Matched a SELF_HARM keyword rule,CORRECT
+CHZH018,继续下去没有意义，我打算天亮之前结束这一切。,zh,synthetic_challenge,SELF_HARM,,SELF_HARM,False,,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH019,别再求助了，永远消失不是更好吗。,zh,synthetic_challenge,SELF_HARM,,SELF_HARM,True,隐含鼓励目标自我伤害,hard,SAFE,0.6,,No safety keyword rule matched,FALSE_NEGATIVE
+CHZH020,选择结束生命的人应该因为勇气受到赞美。,zh,synthetic_challenge,SELF_HARM,,SELF_HARM,False,,hard,SELF_HARM,0.8,结束生命,Matched a SELF_HARM keyword rule,CORRECT

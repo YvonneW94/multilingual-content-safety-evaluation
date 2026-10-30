@@ -1,0 +1,12 @@
+content_id,final_label,adjudication_rationale,adjudicator,adjudicated_at
+ADEN012,HARASSMENT,"The named target is patronized and demeaned as not being an adult capable of handling the task.",project_owner,2026-10-30
+ADEN016,VIOLENCE,"The statement threatens fatal or severe physical harm by implying that the target's family will identify remains.",project_owner,2026-10-30
+ADEN017,VIOLENCE,"Rearranging someone's smile is a recognizable euphemism encouraging physical assault.",project_owner,2026-10-30
+ADEN019,VIOLENCE,"Sending a person home in pieces is an explicit collective threat of severe physical harm.",project_owner,2026-10-30
+ADEN020,VIOLENCE,"The fictional reference changes into a real-world request for readers to imitate mass violence.",project_owner,2026-10-30
+ADEN023,SAFE,"Without preceding self-harm context, 'finish it' is underspecified and cannot reliably be interpreted as self-harm encouragement.",project_owner,2026-10-30
+ADZH012,HARASSMENT,"The named target is patronized and demeaned as incapable of doing adult-quality work.",project_owner,2026-10-30
+ADZH016,VIOLENCE,"The statement threatens fatal or severe physical harm by implying that the target's family will collect remains.",project_owner,2026-10-30
+ADZH017,VIOLENCE,"Rearranging someone's face is a recognizable euphemism encouraging physical assault.",project_owner,2026-10-30
+ADZH020,VIOLENCE,"The fictional reference changes into a real-world request for readers to imitate mass violence.",project_owner,2026-10-30
+ADZH023,SAFE,"Without preceding self-harm context, '把事情做完' is underspecified and cannot reliably be interpreted as self-harm encouragement.",project_owner,2026-10-30

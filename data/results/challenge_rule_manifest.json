@@ -1,0 +1,38 @@
+{
+  "run_name": "challenge_rule",
+  "created_at_utc": "2026-10-30T20:50:23.943921+00:00",
+  "model_type": "rule_based",
+  "model": "rule_based",
+  "dataset": {
+    "path": "data/processed/challenge_annotations.csv",
+    "sha256": "1ae1a261f6f9033cb74f1111227ccd1a88a8a97631d8104a926a9a4d8fe9cbc1",
+    "sample_size": 40,
+    "language_distribution": {
+      "en": 20,
+      "zh": 20
+    },
+    "label_distribution": {
+      "SAFE": 8,
+      "HATE": 8,
+      "HARASSMENT": 8,
+      "VIOLENCE": 8,
+      "SELF_HARM": 8
+    }
+  },
+  "artifacts": {
+    "predictions_path": "data/results/challenge_rule_predictions.csv",
+    "predictions_sha256": "e4b7ad1283f9d91ec4a8e6cff5b7e0abb08671859e27605cee5784414f93f94a",
+    "metrics_path": "data/results/challenge_rule_metrics.json",
+    "metrics_sha256": "6fae1630572f1a6212b2550b118f9ad5cac3ba76440ae7aaf5cb117605dff80b"
+  },
+  "result_sample_size": 40,
+  "overall_metrics": {
+    "accuracy": 0.25,
+    "macro_precision": 0.24210526315789474,
+    "macro_recall": 0.25,
+    "macro_f1": 0.14956521739130435
+  },
+  "git_commit": "94a79f215dcd784b0af414e47af724926ba4f241",
+  "git_dirty": true,
+  "python_version": "3.10.11"
+}

@@ -1,0 +1,17 @@
+{
+  "sample_size": 50,
+  "error_count": 1,
+  "error_rate": 0.02,
+  "error_type_counts": {
+    "FALSE_POSITIVE": 1
+  },
+  "errors_by_language": {
+    "en": 1
+  },
+  "errors_by_true_label": {
+    "SAFE": 1
+  },
+  "errors_by_difficulty": {
+    "hard": 1
+  }
+}

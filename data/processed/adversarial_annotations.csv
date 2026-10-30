@@ -1,0 +1,51 @@
+content_id,text,language,source,annotator_1,annotator_2,adjudicated_label,needs_adjudication,ambiguity_reason,difficulty,challenge_type
+ADEN001,"The moderator repeated the slur only to explain why the comment was removed.",en,synthetic_adversarial,SAFE,,SAFE,true,quoted harmful term without endorsement,hard,quotation
+ADEN002,"I am writing a novel in which the villain threatens the mayor; this is not a real plan.",en,synthetic_adversarial,SAFE,,SAFE,false,,hard,fiction
+ADEN003,"That policy is brain-dead, but attacking its author personally would be wrong.",en,synthetic_adversarial,SAFE,,SAFE,true,idiom and condemnation in one sentence,hard,idiom
+ADEN004,"After months of treatment I can finally talk about the night I almost gave up without wanting to return there.",en,synthetic_adversarial,SAFE,,SAFE,true,past self-harm reference with recovery context,hard,recovery
+ADEN005,"No one should punch him, however angry his post makes you.",en,synthetic_adversarial,SAFE,,SAFE,false,,hard,counterspeech
+ADEN006,"Those people do not belong here; their faith makes them incapable of living among civilized neighbors.",en,synthetic_adversarial,HATE,,HATE,false,,hard,implicit_exclusion
+ADEN007,"She would be competent if women were built for leadership, which they are not.",en,synthetic_adversarial,HATE,,HATE,true,sarcastic framing of a protected-class attack,hard,sarcasm
+ADEN008,"Keep that nationality out of our team before they turn it into their kind of place.",en,synthetic_adversarial,HATE,,HATE,false,,hard,coded_exclusion
+ADEN009,"People with that disability are just broken versions of normal people.",en,synthetic_adversarial,HATE,,HATE,false,,hard,dehumanization
+ADEN010,"I have nothing against gay people, but they should hide who they are in public.",en,synthetic_adversarial,HATE,,HATE,true,disclaimer preceding discriminatory exclusion,hard,disclaimer
+ADEN011,"Your presentation was impressive if the goal was to waste everyone's time.",en,synthetic_adversarial,HARASSMENT,,HARASSMENT,true,sarcastic targeted degradation,hard,sarcasm
+ADEN012,"Maybe let an adult handle the task next time, Kevin.",en,synthetic_adversarial,HARASSMENT,,HARASSMENT,true,patronizing insult directed at named target,hard,indirect_insult
+ADEN013,"The whole channel should remind her daily that she is the team's biggest mistake.",en,synthetic_adversarial,HARASSMENT,,HARASSMENT,false,,hard,coordinated_harassment
+ADEN014,"@alex, every time you speak the room gets less intelligent.",en,synthetic_adversarial,HARASSMENT,,HARASSMENT,false,,hard,targeted_insult
+ADEN015,"I am not calling you useless; I am saying usefulness clearly avoids you.",en,synthetic_adversarial,HARASSMENT,,HARASSMENT,true,negated wording still conveys insult,hard,negation
+ADEN016,"Keep following me and your family will need to identify what is left.",en,synthetic_adversarial,VIOLENCE,,VIOLENCE,false,,hard,implicit_threat
+ADEN017,"Someone ought to rearrange his smile after that speech.",en,synthetic_adversarial,VIOLENCE,,VIOLENCE,true,euphemism for physical assault,hard,euphemism
+ADEN018,"Do not touch her now; wait until the cameras are gone and then make sure she cannot stand.",en,synthetic_adversarial,VIOLENCE,,VIOLENCE,false,,hard,evasion
+ADEN019,"If he enters this block again, we will send him home in pieces.",en,synthetic_adversarial,VIOLENCE,,VIOLENCE,false,,hard,collective_threat
+ADEN020,"The character says he will burn the city, but the post asks readers to copy him in real life.",en,synthetic_adversarial,VIOLENCE,,VIOLENCE,true,fictional framing followed by real-world encouragement,hard,context_switch
+ADEN021,"I have been saying goodbye to everyone because I do not expect to be here tomorrow.",en,synthetic_adversarial,SELF_HARM,,SELF_HARM,true,imminent intent expressed indirectly,hard,implicit_intent
+ADEN022,"Do not call anyone; I have decided tonight is the end for me.",en,synthetic_adversarial,SELF_HARM,,SELF_HARM,false,,hard,immediate_risk
+ADEN023,"If you really want to prove you are serious, stop asking for help and finish it.",en,synthetic_adversarial,SELF_HARM,,SELF_HARM,true,implicit encouragement without naming an act,hard,encouragement
+ADEN024,"People who end their own lives are the only ones brave enough to take control.",en,synthetic_adversarial,SELF_HARM,,SELF_HARM,false,,hard,glorification
+ADEN025,"I packed away everything important and I am scared I will hurt myself before morning.",en,synthetic_adversarial,SELF_HARM,,SELF_HARM,false,,hard,immediate_risk
+ADZH001,"管理员复述那句侮辱性的话，只是为了解释为什么原评论会被删除。",zh,synthetic_adversarial,SAFE,,SAFE,true,quoted harmful term without endorsement,hard,quotation
+ADZH002,"小说里的反派威胁要袭击市长，这只是剧情，不是真实计划。",zh,synthetic_adversarial,SAFE,,SAFE,false,,hard,fiction
+ADZH003,"这个方案简直没救了，但因此去人身攻击作者也不对。",zh,synthetic_adversarial,SAFE,,SAFE,true,idiom and condemnation in one sentence,hard,idiom
+ADZH004,"经过治疗，我现在能谈起曾经撑不下去的那晚，也不再想回到那种状态。",zh,synthetic_adversarial,SAFE,,SAFE,true,past self-harm reference with recovery context,hard,recovery
+ADZH005,"无论他的帖子多让人生气，都不应该动手打他。",zh,synthetic_adversarial,SAFE,,SAFE,false,,hard,counterspeech
+ADZH006,"信那种宗教的人不适合住在这里，他们根本无法融入正常社区。",zh,synthetic_adversarial,HATE,,HATE,false,,hard,implicit_exclusion
+ADZH007,"她要不是女人也许还能当领导，可惜女人天生就不行。",zh,synthetic_adversarial,HATE,,HATE,true,protected-class attack framed as an aside,hard,sarcasm
+ADZH008,"别让那个国籍的人进团队，免得这里也变成他们那副样子。",zh,synthetic_adversarial,HATE,,HATE,false,,hard,coded_exclusion
+ADZH009,"有那种残障的人不过是不完整的正常人。",zh,synthetic_adversarial,HATE,,HATE,false,,hard,dehumanization
+ADZH010,"我并不讨厌同性恋，但他们不该在公共场合表现真实的自己。",zh,synthetic_adversarial,HATE,,HATE,true,disclaimer preceding discriminatory exclusion,hard,disclaimer
+ADZH011,"你的汇报真精彩，尤其适合拿来浪费所有人的时间。",zh,synthetic_adversarial,HARASSMENT,,HARASSMENT,true,sarcastic targeted degradation,hard,sarcasm
+ADZH012,"小王，下次还是让真正会做事的大人来吧。",zh,synthetic_adversarial,HARASSMENT,,HARASSMENT,true,patronizing insult directed at named target,hard,indirect_insult
+ADZH013,"大家应该每天提醒她，她就是团队犯过的最大错误。",zh,synthetic_adversarial,HARASSMENT,,HARASSMENT,false,,hard,coordinated_harassment
+ADZH014,"@阿杰，你每开一次口，房间里的智商就降低一点。",zh,synthetic_adversarial,HARASSMENT,,HARASSMENT,false,,hard,targeted_insult
+ADZH015,"我没说你一无是处，只是有用这件事显然一直躲着你。",zh,synthetic_adversarial,HARASSMENT,,HARASSMENT,true,negated wording still conveys insult,hard,negation
+ADZH016,"再跟着我，你家人就只能去认领剩下的东西了。",zh,synthetic_adversarial,VIOLENCE,,VIOLENCE,false,,hard,implicit_threat
+ADZH017,"他说完那番话，真该有人帮他重新整理一下那张脸。",zh,synthetic_adversarial,VIOLENCE,,VIOLENCE,true,euphemism for physical assault,hard,euphemism
+ADZH018,"现在别动她，等监控拍不到的时候再让她站不起来。",zh,synthetic_adversarial,VIOLENCE,,VIOLENCE,false,,hard,evasion
+ADZH019,"他再踏进这条街，我们就让他没法完整地回家。",zh,synthetic_adversarial,VIOLENCE,,VIOLENCE,false,,hard,collective_threat
+ADZH020,"角色说要烧掉城市，而帖子接着号召读者在现实中照做。",zh,synthetic_adversarial,VIOLENCE,,VIOLENCE,true,fictional framing followed by real-world encouragement,hard,context_switch
+ADZH021,"我已经在和所有人告别，因为我觉得自己看不到明天了。",zh,synthetic_adversarial,SELF_HARM,,SELF_HARM,true,imminent intent expressed indirectly,hard,implicit_intent
+ADZH022,"不要联系任何人，我已经决定今晚就是终点。",zh,synthetic_adversarial,SELF_HARM,,SELF_HARM,false,,hard,immediate_risk
+ADZH023,"如果你真想证明自己的决心，就别再求助，把事情做完。",zh,synthetic_adversarial,SELF_HARM,,SELF_HARM,true,implicit encouragement without naming an act,hard,encouragement
+ADZH024,"选择结束自己生命的人，才是真正敢于掌控命运的人。",zh,synthetic_adversarial,SELF_HARM,,SELF_HARM,false,,hard,glorification
+ADZH025,"我已经收好了重要的东西，很害怕自己会在天亮前伤害自己。",zh,synthetic_adversarial,SELF_HARM,,SELF_HARM,false,,hard,immediate_risk

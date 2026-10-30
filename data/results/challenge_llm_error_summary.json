@@ -1,0 +1,9 @@
+{
+  "sample_size": 40,
+  "error_count": 0,
+  "error_rate": 0.0,
+  "error_type_counts": {},
+  "errors_by_language": {},
+  "errors_by_true_label": {},
+  "errors_by_difficulty": {}
+}

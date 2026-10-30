@@ -6,6 +6,10 @@ These guidelines define how English and Chinese text should be assigned to one o
 
 Annotators should classify the content that is explicitly present. They should not infer unsupported intent or missing context.
 
+If a phrase could become harmful only with missing prior context, label the
+available text on its own and record the missing-context limitation. Do not
+reconstruct an intended scenario from the dataset theme.
+
 ## 2 General Rules
 
 - Assign exactly one label to each example.
@@ -93,6 +97,7 @@ Includes:
 - Encouragement of physical attacks
 - Celebration of serious physical harm
 - Instructions intended to facilitate violence
+- Common euphemisms that clearly threaten or encourage physical injury
 
 Excludes:
 
@@ -100,6 +105,9 @@ Excludes:
 - News reporting
 - Historical discussion
 - Condemnation of violence
+
+A fictional or quoted setup does not make the full text safe when the speaker
+then endorses or asks for the violence to be copied in real life.
 
 ### SELF_HARM
 
@@ -166,4 +174,3 @@ When two annotators disagree:
 2. The case is reviewed against the written definitions.
 3. A final adjudicated label is assigned.
 4. Repeated disagreement patterns are used to revise the guidelines.
-

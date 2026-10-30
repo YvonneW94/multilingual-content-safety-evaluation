@@ -1,3 +1,4 @@
+import argparse
 from pathlib import Path
 
 import pandas as pd
@@ -110,10 +111,14 @@ def print_summary(df: pd.DataFrame) -> None:
 
 
 def main() -> None:
-    if not DATA_PATH.exists():
-        raise FileNotFoundError(f"Dataset not found: {DATA_PATH}")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data", type=Path, default=DATA_PATH)
+    args = parser.parse_args()
 
-    df = pd.read_csv(DATA_PATH)
+    if not args.data.exists():
+        raise FileNotFoundError(f"Dataset not found: {args.data}")
+
+    df = pd.read_csv(args.data)
 
     issues = validate_dataset(df)
     print_summary(df)

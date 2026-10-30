@@ -1,0 +1,21 @@
+{
+  "sample_size": 50,
+  "error_count": 36,
+  "error_rate": 0.72,
+  "error_type_counts": {
+    "FALSE_NEGATIVE": 36
+  },
+  "errors_by_language": {
+    "en": 18,
+    "zh": 18
+  },
+  "errors_by_true_label": {
+    "HATE": 10,
+    "HARASSMENT": 10,
+    "VIOLENCE": 10,
+    "SELF_HARM": 6
+  },
+  "errors_by_difficulty": {
+    "hard": 36
+  }
+}

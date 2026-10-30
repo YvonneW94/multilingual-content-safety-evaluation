@@ -1,3 +1,4 @@
+import argparse
 import json
 from pathlib import Path
 
@@ -26,6 +27,18 @@ LABELS = [
     "VIOLENCE",
     "SELF_HARM",
 ]
+
+
+def use_final_labels(df: pd.DataFrame) -> pd.DataFrame:
+    """Use completed adjudication labels while retaining the audit columns."""
+    normalized = df.copy()
+    if "final_label" in normalized.columns:
+        final_labels = normalized["final_label"].fillna("").astype(str).str.strip()
+        has_final_label = final_labels != ""
+        normalized.loc[has_final_label, "adjudicated_label"] = final_labels[
+            has_final_label
+        ]
+    return normalized
 
 
 def calculate_metrics(
@@ -59,9 +72,17 @@ def calculate_metrics(
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--data", type=Path, default=DATA_PATH)
+    parser.add_argument("--run-name", default="rule_baseline")
+    args = parser.parse_args()
+
+    data_path = args.data
+    predictions_path = RESULTS_DIR / f"{args.run_name}_predictions.csv"
+    metrics_path = RESULTS_DIR / f"{args.run_name}_metrics.json"
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-    df = pd.read_csv(DATA_PATH)
+    df = use_final_labels(pd.read_csv(data_path))
 
     predictions = df.apply(
         lambda row: classify_as_dict(
@@ -108,7 +129,7 @@ def main() -> None:
     )
 
     output = {
-        "dataset": str(DATA_PATH),
+        "dataset": str(data_path),
         "sample_size": len(results),
         "labels": LABELS,
         "overall_metrics": overall_metrics,
@@ -117,9 +138,9 @@ def main() -> None:
         "confusion_matrix": matrix.tolist(),
     }
 
-    results.to_csv(PREDICTIONS_PATH, index=False)
+    results.to_csv(predictions_path, index=False)
 
-    with open(METRICS_PATH, "w", encoding="utf-8") as file:
+    with open(metrics_path, "w", encoding="utf-8") as file:
         json.dump(output, file, ensure_ascii=False, indent=2)
 
     print("\nOverall metrics")
@@ -168,8 +189,8 @@ def main() -> None:
             ].to_string(index=False)
         )
 
-    print(f"\nSaved predictions to: {PREDICTIONS_PATH}")
-    print(f"Saved metrics to: {METRICS_PATH}")
+    print(f"\nSaved predictions to: {predictions_path}")
+    print(f"Saved metrics to: {metrics_path}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,8 @@
+{
+  "sample_size": 50,
+  "mean_confidence": 0.6080000000000001,
+  "empirical_accuracy": 0.28,
+  "expected_calibration_error": 0.344,
+  "brier_score": 0.29919999999999997,
+  "bin_count": 10
+}

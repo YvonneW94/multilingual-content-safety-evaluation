@@ -1,0 +1,2 @@
+confidence_bin,sample_size,mean_confidence,empirical_accuracy,absolute_gap,weighted_gap
+"(0.9, 1.0]",20,0.9875,1.0,0.012499999999999956,0.012499999999999956

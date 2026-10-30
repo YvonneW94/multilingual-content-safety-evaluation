@@ -1,0 +1,113 @@
+{
+  "dataset": "data/processed/adversarial_final_annotations.csv",
+  "sample_size": 50,
+  "labels": [
+    "SAFE",
+    "HATE",
+    "HARASSMENT",
+    "VIOLENCE",
+    "SELF_HARM"
+  ],
+  "overall_metrics": {
+    "accuracy": 0.28,
+    "macro_precision": 0.25,
+    "macro_recall": 0.25,
+    "macro_f1": 0.16
+  },
+  "language_metrics": {
+    "en": {
+      "accuracy": 0.28,
+      "macro_precision": 0.25,
+      "macro_recall": 0.25,
+      "macro_f1": 0.16
+    },
+    "zh": {
+      "accuracy": 0.28,
+      "macro_precision": 0.25,
+      "macro_recall": 0.25,
+      "macro_f1": 0.16
+    }
+  },
+  "classification_report": {
+    "SAFE": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1-score": 0.4,
+      "support": 12.0
+    },
+    "HATE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "HARASSMENT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "VIOLENCE": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "SELF_HARM": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1-score": 0.4,
+      "support": 8.0
+    },
+    "accuracy": 0.28,
+    "macro avg": {
+      "precision": 0.25,
+      "recall": 0.25,
+      "f1-score": 0.16,
+      "support": 50.0
+    },
+    "weighted avg": {
+      "precision": 0.22,
+      "recall": 0.28,
+      "f1-score": 0.16,
+      "support": 50.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      12,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      0,
+      2
+    ]
+  ]
+}

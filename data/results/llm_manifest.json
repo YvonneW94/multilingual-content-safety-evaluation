@@ -1,0 +1,40 @@
+{
+  "run_name": "llm",
+  "created_at_utc": "2026-10-30T20:50:23.485632+00:00",
+  "model_type": "structured_llm",
+  "model": "gpt-6-luna",
+  "dataset": {
+    "path": "data/processed/pilot_annotations.csv",
+    "sha256": "c9def713e1532fec43a623be3eea3652e44da59a61a8d0528da449c78209d038",
+    "sample_size": 20,
+    "language_distribution": {
+      "en": 10,
+      "zh": 10
+    },
+    "label_distribution": {
+      "SAFE": 10,
+      "HARASSMENT": 4,
+      "HATE": 2,
+      "VIOLENCE": 2,
+      "SELF_HARM": 2
+    }
+  },
+  "artifacts": {
+    "predictions_path": "data/results/llm_predictions.csv",
+    "predictions_sha256": "a8ba5903a8ea14dd8cd013e6f17155f7e3c944e6b54a079624b7738f86c83227",
+    "metrics_path": "data/results/llm_metrics.json",
+    "metrics_sha256": "75e27c9068547acada847b7aedcc8713dc8b092f7eb9b07c5658eaed76f5378d"
+  },
+  "result_sample_size": 20,
+  "overall_metrics": {
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0
+  },
+  "git_commit": "94a79f215dcd784b0af414e47af724926ba4f241",
+  "git_dirty": true,
+  "python_version": "3.10.11",
+  "prompt_sha256": "9ec446f93186b55eeb599016d49c31fce4170afcfa92e2f8b2727e0781ed642b",
+  "structured_output_schema": "LLMClassification"
+}

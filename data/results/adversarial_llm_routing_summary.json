@@ -1,0 +1,19 @@
+{
+  "sample_size": 50,
+  "action_counts": {
+    "AUTOMATED_ACTION": 38,
+    "PASS": 10,
+    "HUMAN_REVIEW": 1,
+    "MONITOR": 1
+  },
+  "action_rates": {
+    "AUTOMATED_ACTION": 0.76,
+    "PASS": 0.2,
+    "HUMAN_REVIEW": 0.02,
+    "MONITOR": 0.02
+  },
+  "human_review_rate": 0.02,
+  "monitor_rate": 0.02,
+  "automated_action_rate": 0.76,
+  "pass_rate": 0.2
+}

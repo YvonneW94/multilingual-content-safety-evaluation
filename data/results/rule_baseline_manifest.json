@@ -1,0 +1,38 @@
+{
+  "run_name": "rule_baseline",
+  "created_at_utc": "2026-10-30T20:50:23.010286+00:00",
+  "model_type": "rule_based",
+  "model": "rule_based",
+  "dataset": {
+    "path": "data/processed/pilot_annotations.csv",
+    "sha256": "c9def713e1532fec43a623be3eea3652e44da59a61a8d0528da449c78209d038",
+    "sample_size": 20,
+    "language_distribution": {
+      "en": 10,
+      "zh": 10
+    },
+    "label_distribution": {
+      "SAFE": 10,
+      "HARASSMENT": 4,
+      "HATE": 2,
+      "VIOLENCE": 2,
+      "SELF_HARM": 2
+    }
+  },
+  "artifacts": {
+    "predictions_path": "data/results/rule_baseline_predictions.csv",
+    "predictions_sha256": "2abd0f8c03f6e4a8de7ad2717f609163f654e0b7c69c9b650f13b205d1452374",
+    "metrics_path": "data/results/rule_baseline_metrics.json",
+    "metrics_sha256": "f4bf94ef440e5a83392225ce4b8656d31ea25c06e13365458581119f3c1e59c0"
+  },
+  "result_sample_size": 20,
+  "overall_metrics": {
+    "accuracy": 0.85,
+    "macro_precision": 0.7538461538461538,
+    "macro_recall": 0.7,
+    "macro_f1": 0.7072463768115942
+  },
+  "git_commit": "94a79f215dcd784b0af414e47af724926ba4f241",
+  "git_dirty": true,
+  "python_version": "3.10.11"
+}
