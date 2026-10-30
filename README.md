@@ -1,11 +1,21 @@
 # Multilingual Content Safety Evaluation Platform
 
+[**Live Demo**](https://multilingual-content-safety-evaluation.streamlit.app/) ·
+[**System Architecture**](docs/assets/system-architecture.svg) ·
+[**Evaluation Report**](docs/evaluation_report.md) ·
+[**Annotation Guidelines**](docs/annotation_guidelines.md)
+
 A product-oriented prototype for evaluating English and Chinese text-safety
 classifiers. The project connects policy definitions, labeled data, model
 evaluation, confidence routing, and human-review operations.
 
 > Evaluation prototype only. It is not intended for real-world automated
 > enforcement or production safety decisions.
+
+**At a glance:** 110 bilingual synthetic examples · five safety categories ·
+two independent-review rounds · macro F1 from 0.160 to 0.980 on the
+adversarial set · 100% high-severity recall · confidence-based human-review
+routing
 
 ![Adversarial rule-based and LLM comparison](docs/assets/dashboard-model-comparison.png)
 
@@ -62,15 +72,23 @@ small and synthetic. See the [evaluation report](docs/evaluation_report.md),
 
 ## Product Interface
 
+Try the deployed application:
+[multilingual-content-safety-evaluation.streamlit.app](https://multilingual-content-safety-evaluation.streamlit.app/)
+
 ![Adversarial dashboard overview](docs/assets/dashboard-adversarial.png)
 
 The Streamlit application includes five English-language views:
 
-- **Evaluate content** for rule-based or LLM classification
+- **Evaluate content** for live rule-based classification in the public demo;
+  local deployments can also enable LLM classification with environment
+  credentials
 - **Model dashboard** for Pilot, Challenge, and Adversarial result comparison
 - **Threshold analysis** for automation and review-volume tradeoffs
 - **Annotation quality** for independent-review status and template download
 - **Reviewer feedback** for confirmation, correction, notes, and escalation
+
+The public deployment does not expose an API key. Saved LLM evaluation results
+remain available in the dashboard for model comparison and error analysis.
 
 Chinese appears only in Chinese evaluation content and keyword rules. All
 interface labels, documentation, metadata, and analysis outputs are English.
